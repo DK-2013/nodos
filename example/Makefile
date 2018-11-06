@@ -6,9 +6,11 @@ install:
 links:
 	yarn --cwd ../packages/nodos-core link
 	yarn --cwd ../packages/nodos-db link
+	yarn --cwd ../packages/nodos-generators link
 	yarn --cwd ../packages/nodos-routing link
 	yarn link @nodosjs/core
 	yarn link @nodosjs/db
+	yarn link @nodosjs/generators
 	yarn link @nodosjs/routing
 
 server:
